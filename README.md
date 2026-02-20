@@ -26,6 +26,7 @@ The page displays all packages and dependencies organized by repository, with th
 
 To update the SBOM data:
 
+1. Generate SBOM license report on Aikido > Reports and download it as a csv
 1. Replace `license_report.csv` with the new CSV file
 2. The page will automatically reflect the changes (no rebuild needed)
 
